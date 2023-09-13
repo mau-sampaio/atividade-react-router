@@ -17,7 +17,6 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/beer/:id" element={<Beer />} />
-          <Route path="*" element={<>404</>} />
         </Routes>
       </BrowserRouter>
     </div >
